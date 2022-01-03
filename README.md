@@ -34,5 +34,12 @@ pip install -r requirements.txt
 - Правый клик мыши - закрытие программы
 - Колесико вверх или вниз - следующая картинка
 
+## Компиляция в один exe файл
+Команда позволяет создать один exe файл в папке dist.
+Необходимо добавить папку с картинками в png
+```
+pyinstaller --noconsole run.py  --onefile
+```
+
 ## Автор
 Даниил Горбенко https://github.com/daniilgorbenko/
